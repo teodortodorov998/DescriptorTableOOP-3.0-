@@ -27,6 +27,7 @@ int main(){
         H.AddLexUnit(lu[2]);
         H.AddLexUnit(lu[3]);
         H.AddLexUnit(lu[4]);
+        H.Print();
         H.Delete("alpha");
         H.Print();
         H.Search("beta");
